@@ -232,14 +232,25 @@ export const ArticleView: React.FC<ArticleViewProps> = ({ article }) => {
         {/* Official Ecosystem Footer */}
         <div className="flex flex-wrap items-center justify-between gap-4 text-xs text-gray-500 pt-2">
           <span>Official documentation of the Senzo ecosystem.</span>
-          <a
-            href="https://senzolab.xyz"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-1.5 text-cyan-400/80 hover:text-cyan-300 transition-colors"
-          >
-            <span>senzolab.xyz</span>
-          </a>
+          <div className="flex items-center gap-3">
+            <a
+              href="https://senzolab.xyz"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1 text-cyan-400/80 hover:text-cyan-300 transition-colors font-medium"
+            >
+              <span>senzolab.xyz</span>
+            </a>
+            <span className="text-gray-700">&middot;</span>
+            <a
+              href="https://launch.senzolab.xyz"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1 text-teal-400/80 hover:text-teal-300 transition-colors font-medium"
+            >
+              <span>launch.senzolab.xyz</span>
+            </a>
+          </div>
         </div>
       </div>
     </article>
