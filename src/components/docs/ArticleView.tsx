@@ -9,7 +9,6 @@ import {
   ArrowLeft,
   ArrowRight,
   Download,
-  Github,
   CheckCircle2,
   Sparkles,
   ChevronRight
@@ -230,17 +229,16 @@ export const ArticleView: React.FC<ArticleViewProps> = ({ article }) => {
           ) : <div />}
         </div>
 
-        {/* GitHub Contribution Link */}
+        {/* Official Ecosystem Footer */}
         <div className="flex flex-wrap items-center justify-between gap-4 text-xs text-gray-500 pt-2">
-          <span>Built for the open Senzo Lab ecosystem.</span>
+          <span>Official documentation of the Senzo ecosystem.</span>
           <a
-            href="https://github.com/s1zeNof/docs-senzo-crypto"
+            href="https://senzolab.xyz"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-1.5 hover:text-white transition-colors"
+            className="inline-flex items-center gap-1.5 text-cyan-400/80 hover:text-cyan-300 transition-colors"
           >
-            <Github className="h-3.5 w-3.5" />
-            <span>Edit this page on GitHub</span>
+            <span>senzolab.xyz</span>
           </a>
         </div>
       </div>

@@ -5,7 +5,6 @@ import Link from 'next/link';
 import {
   Search,
   ExternalLink,
-  Github,
   Radio,
   Menu,
   X,
@@ -105,18 +104,15 @@ export const DocsHeader: React.FC<DocsHeaderProps> = ({
               <span>Launchpad</span>
             </a>
 
-            <div className="h-4 w-[1px] bg-white/10 hidden sm:block" />
-
             <a
-              href="https://github.com/s1zeNof/docs-senzo-crypto"
+              href="https://senzolab.xyz"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-1.5 rounded-xl border border-white/10 bg-white/[0.04] hover:bg-white/[0.08] px-3 py-1.5 text-xs font-medium text-gray-300 hover:text-white transition-all"
-              title="View on GitHub"
+              className="inline-flex items-center gap-1.5 rounded-xl border border-cyan-500/30 bg-cyan-500/10 hover:bg-cyan-500/20 px-3 py-1.5 text-xs font-semibold text-cyan-300 transition-all shadow-[0_0_12px_rgba(0,242,254,0.15)]"
+              title="Open Senzo App"
             >
-              <Github className="h-4 w-4" />
-              <span className="hidden sm:inline">GitHub</span>
-              <ExternalLink className="h-3 w-3 text-gray-500" />
+              <span>Launch App</span>
+              <ExternalLink className="h-3 w-3" />
             </a>
           </div>
         </div>
