@@ -20,11 +20,11 @@ export const metadata: Metadata = {
   authors: [{ name: 'Senzo Core Team' }],
   icons: {
     icon: [
-      { url: '/icon.svg', type: 'image/svg+xml' },
+      { url: '/logo.svg', type: 'image/svg+xml' },
       { url: '/favicon.ico', sizes: 'any' },
     ],
-    shortcut: '/icon.svg',
-    apple: '/icon.svg',
+    shortcut: '/logo.svg',
+    apple: '/logo.svg',
   },
 };
 
