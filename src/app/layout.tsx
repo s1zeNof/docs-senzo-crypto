@@ -3,9 +3,9 @@ import './globals.css';
 import { DocsShell } from '../components/layout/DocsShell';
 
 export const metadata: Metadata = {
-  title: 'Senzo Documentation | Офіційна документація екосистеми Senzo',
+  title: 'Senzo Documentation | Official Technical Docs',
   description:
-    'Повна технічна документація екосистеми Senzo: Senzo Node Network (SNN), DePIN запуск воркерів, Launch OS токен-капсули, бондинг-криві та Trading API.',
+    'Complete technical documentation for the Senzo Ecosystem: Senzo Node Network (SNN), DePIN worker nodes, Launch OS token capsules, bonding curves, and Trading API.',
   keywords: [
     'Senzo',
     'Senzo Docs',
@@ -29,7 +29,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="uk" className="dark">
+    <html lang="en" className="dark">
       <body className="min-h-screen bg-[#05070b] text-[#f8fafc] antialiased selection:bg-cyan-500/20 selection:text-cyan-300">
         <DocsShell>{children}</DocsShell>
       </body>

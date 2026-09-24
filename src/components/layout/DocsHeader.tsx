@@ -65,7 +65,7 @@ export const DocsHeader: React.FC<DocsHeaderProps> = ({
             >
               <span className="flex items-center gap-2">
                 <Search className="h-3.5 w-3.5 text-gray-500" />
-                <span>Швидкий пошук документації...</span>
+                <span>Search documentation...</span>
               </span>
               <kbd className="hidden lg:inline-flex items-center gap-0.5 rounded border border-white/10 bg-white/5 px-1.5 py-0.5 text-[10px] text-gray-400 font-mono">
                 ⌘K

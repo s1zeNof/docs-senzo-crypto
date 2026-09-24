@@ -77,15 +77,15 @@ export const ArticleView: React.FC<ArticleViewProps> = ({ article }) => {
         <div className="flex flex-wrap items-center gap-4 text-xs text-gray-400 pt-1">
           <div className="flex items-center gap-1.5">
             <Calendar className="h-3.5 w-3.5 text-gray-500" />
-            <span>Оновлено: <strong className="text-gray-300">{article.lastUpdated}</strong></span>
+            <span>Updated: <strong className="text-gray-300">{article.lastUpdated}</strong></span>
           </div>
           <div className="flex items-center gap-1.5">
             <Clock className="h-3.5 w-3.5 text-gray-500" />
-            <span>~{article.readingTimeMinutes} хв читання</span>
+            <span>~{article.readingTimeMinutes} min read</span>
           </div>
           <div className="flex items-center gap-1.5">
             <CheckCircle2 className="h-3.5 w-3.5 text-emerald-400" />
-            <span className="text-emerald-300 font-medium">Верифіковано Senzo Core</span>
+            <span className="text-emerald-300 font-medium">Verified by Senzo Core</span>
           </div>
         </div>
 
@@ -181,7 +181,7 @@ export const ArticleView: React.FC<ArticleViewProps> = ({ article }) => {
                       className="inline-flex items-center justify-center gap-2 rounded-xl border border-emerald-500/30 bg-emerald-500/10 hover:bg-emerald-500/20 text-emerald-300 py-2.5 px-4 text-xs font-semibold transition-all hover:-translate-y-0.5 shadow-sm"
                     >
                       <Download className="h-4 w-4" />
-                      <span>Завантажити {d.filename}</span>
+                      <span>Download {d.filename}</span>
                     </a>
                   </div>
                 ))}
@@ -207,7 +207,7 @@ export const ArticleView: React.FC<ArticleViewProps> = ({ article }) => {
               className="flex flex-col rounded-2xl border border-white/10 bg-white/[0.02] p-4 hover:border-cyan-500/30 hover:bg-white/[0.04] transition-all group"
             >
               <span className="text-[11px] font-bold uppercase tracking-wider text-gray-500 flex items-center gap-1 group-hover:text-cyan-400 transition-colors">
-                <ArrowLeft className="h-3.5 w-3.5" /> Попередня стаття
+                <ArrowLeft className="h-3.5 w-3.5" /> Previous Article
               </span>
               <span className="text-sm font-bold text-white mt-1 group-hover:text-cyan-300 transition-colors">
                 {prevArticle.title}
@@ -221,7 +221,7 @@ export const ArticleView: React.FC<ArticleViewProps> = ({ article }) => {
               className="flex flex-col items-end text-right rounded-2xl border border-white/10 bg-white/[0.02] p-4 hover:border-cyan-500/30 hover:bg-white/[0.04] transition-all group"
             >
               <span className="text-[11px] font-bold uppercase tracking-wider text-gray-500 flex items-center gap-1 group-hover:text-cyan-400 transition-colors">
-                Наступна стаття <ArrowRight className="h-3.5 w-3.5" />
+                Next Article <ArrowRight className="h-3.5 w-3.5" />
               </span>
               <span className="text-sm font-bold text-white mt-1 group-hover:text-cyan-300 transition-colors">
                 {nextArticle.title}
@@ -232,7 +232,7 @@ export const ArticleView: React.FC<ArticleViewProps> = ({ article }) => {
 
         {/* GitHub Contribution Link */}
         <div className="flex flex-wrap items-center justify-between gap-4 text-xs text-gray-500 pt-2">
-          <span>Створено для відкритої екосистеми Senzo Lab.</span>
+          <span>Built for the open Senzo Lab ecosystem.</span>
           <a
             href="https://github.com/s1zeNof/docs-senzo-crypto"
             target="_blank"
@@ -240,7 +240,7 @@ export const ArticleView: React.FC<ArticleViewProps> = ({ article }) => {
             className="inline-flex items-center gap-1.5 hover:text-white transition-colors"
           >
             <Github className="h-3.5 w-3.5" />
-            <span>Редагувати цю сторінку на GitHub</span>
+            <span>Edit this page on GitHub</span>
           </a>
         </div>
       </div>

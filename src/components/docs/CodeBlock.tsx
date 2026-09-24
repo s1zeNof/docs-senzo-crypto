@@ -32,12 +32,12 @@ export const CodeBlock: React.FC<CodeBlockProps> = ({ code, lang = 'bash', filen
           {copied ? (
             <>
               <Check className="h-3.5 w-3.5 text-emerald-400" />
-              <span className="text-emerald-400">Скопійовано!</span>
+              <span className="text-emerald-400">Copied!</span>
             </>
           ) : (
             <>
               <Copy className="h-3.5 w-3.5 text-gray-400" />
-              <span>Копіювати</span>
+              <span>Copy</span>
             </>
           )}
         </button>

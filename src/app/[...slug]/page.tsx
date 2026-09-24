@@ -24,7 +24,7 @@ export async function generateMetadata({ params }: DocPageProps): Promise<Metada
 
   if (!article) {
     return {
-      title: 'Статтю не знайдено | Senzo Docs',
+      title: 'Article Not Found | Senzo Docs',
     };
   }
 

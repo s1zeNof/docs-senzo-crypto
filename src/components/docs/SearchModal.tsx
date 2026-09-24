@@ -59,7 +59,7 @@ export const SearchModal: React.FC<SearchModalProps> = ({ isOpen, onClose }) => 
             autoFocus
             value={query}
             onChange={e => setQuery(e.target.value)}
-            placeholder="Пошук у документації (напр. quickstart, worker, claim, api)..."
+            placeholder="Search documentation (e.g., quickstart, worker, claim, api)..."
             className="w-full bg-transparent text-sm text-white placeholder-gray-500 focus:outline-none"
           />
           <button
@@ -74,7 +74,7 @@ export const SearchModal: React.FC<SearchModalProps> = ({ isOpen, onClose }) => 
         <div className="max-h-[60vh] overflow-y-auto space-y-2 pr-1">
           {filtered.length === 0 ? (
             <div className="py-8 text-center text-xs text-gray-500">
-              Нічого не знайдено за запитом &quot;{query}&quot;
+              No results found for &quot;{query}&quot;
             </div>
           ) : (
             filtered.map(item => (
@@ -110,8 +110,8 @@ export const SearchModal: React.FC<SearchModalProps> = ({ isOpen, onClose }) => 
 
         {/* Footer shortcuts */}
         <div className="border-t border-white/5 pt-2 px-2 flex items-center justify-between text-[11px] text-gray-500">
-          <span>Навігація по статтях</span>
-          <span>Esc для виходу</span>
+          <span>Article navigation</span>
+          <span>Esc to exit</span>
         </div>
       </div>
     </div>

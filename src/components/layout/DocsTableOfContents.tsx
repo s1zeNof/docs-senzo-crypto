@@ -39,7 +39,7 @@ export const DocsTableOfContents: React.FC<DocsTableOfContentsProps> = ({ items 
       <div className="space-y-3">
         <div className="flex items-center gap-1.5 font-bold uppercase tracking-wider text-gray-400">
           <List className="h-3.5 w-3.5 text-cyan-400" />
-          <span>На цій сторінці</span>
+          <span>On this page</span>
         </div>
         <ul className="space-y-2 border-l border-white/[0.08] pl-3">
           {items.map(item => {
@@ -66,10 +66,10 @@ export const DocsTableOfContents: React.FC<DocsTableOfContentsProps> = ({ items 
       <div className="rounded-2xl border border-white/[0.08] bg-white/[0.02] p-4 space-y-2.5 text-gray-400">
         <div className="flex items-center gap-2 text-white font-semibold">
           <MessageSquare className="h-4 w-4 text-cyan-400" />
-          <span>Потрібна допомога?</span>
+          <span>Need help?</span>
         </div>
         <p className="text-[11px] leading-relaxed">
-          Виникли запитання щодо запуску ноди чи налаштування капсули? Приєднуйтесь до чату розробників.
+          Have questions about running a node or configuring a token capsule? Join our community chat.
         </p>
         <a
           href="https://t.me/senzo_network"

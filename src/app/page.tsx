@@ -25,15 +25,15 @@ export default function DocsHomePage() {
         <div className="max-w-2xl space-y-4">
           <div className="inline-flex items-center gap-2 rounded-full border border-cyan-500/30 bg-cyan-500/10 px-3 py-1 text-xs font-semibold text-cyan-300">
             <Radio className="h-3.5 w-3.5 animate-pulse text-cyan-400" />
-            <span>Офіційна документація Senzo v1.0.0</span>
+            <span>Official Senzo Documentation v1.0.0</span>
           </div>
 
           <h1 className="text-3xl sm:text-5xl font-extrabold tracking-tight text-white leading-tight">
-            Інженерна база знань екосистеми <span className="gradient-text">Senzo</span>
+            Engineering Knowledge Base for the <span className="gradient-text">Senzo</span> Ecosystem
           </h1>
 
           <p className="text-sm sm:text-base text-gray-300 leading-relaxed">
-            Повні посібники із запуску DePIN воркерів на ПК, підключення токен-капсул до Launchpad, взаємодії з бондинг-кривими та інтеграції торгового API.
+            Comprehensive developer guides for launching DePIN worker nodes on PC, attaching token capsules to Launchpad, interacting with bonding curves, and integrating high-frequency trading APIs.
           </p>
 
           <div className="pt-2 flex flex-wrap items-center gap-3">
@@ -42,7 +42,7 @@ export default function DocsHomePage() {
               className="inline-flex items-center gap-2 rounded-2xl bg-gradient-to-r from-cyan-500 to-teal-400 hover:from-cyan-400 hover:to-teal-300 text-black px-5 py-3 text-xs sm:text-sm font-bold transition-all shadow-[0_0_20px_rgba(0,242,254,0.3)] hover:-translate-y-0.5"
             >
               <Terminal className="h-4 w-4" />
-              <span>Швидкий старт: Нода на ПК</span>
+              <span>Quickstart: Node on PC</span>
               <ArrowRight className="h-4 w-4" />
             </Link>
 
@@ -75,7 +75,7 @@ export default function DocsHomePage() {
               </span>
             </div>
             <p className="text-xs text-gray-400 leading-relaxed">
-              Запуск легкої ноди на домашньому комп\'ютері, клейм за 6-значним кодом, моніторинг аптайму та отримання винагород (80% пулу).
+              Launch a lightweight worker daemon on your PC, claim via 6-digit code, monitor uptime telemetry, and earn operator rewards (80% subscription pool).
             </p>
           </div>
 
@@ -84,21 +84,21 @@ export default function DocsHomePage() {
               href="/nodes/quickstart"
               className="flex items-center justify-between text-xs text-cyan-400 hover:text-cyan-300 font-medium py-1"
             >
-              <span>Покроковий гайд на ПК</span>
+              <span>PC Quickstart Guide</span>
               <ArrowRight className="h-3.5 w-3.5" />
             </Link>
             <Link
               href="/nodes/claim"
               className="flex items-center justify-between text-xs text-gray-400 hover:text-gray-200 py-1"
             >
-              <span>Як заклеймити ноду</span>
+              <span>How to Claim a Node</span>
               <ArrowRight className="h-3.5 w-3.5" />
             </Link>
             <Link
               href="/nodes/capsule-observers"
               className="flex items-center justify-between text-xs text-gray-400 hover:text-gray-200 py-1"
             >
-              <span>Обсервери для токенів</span>
+              <span>Capsule Observers</span>
               <ArrowRight className="h-3.5 w-3.5" />
             </Link>
           </div>
@@ -119,7 +119,7 @@ export default function DocsHomePage() {
               </span>
             </div>
             <p className="text-xs text-gray-400 leading-relaxed">
-              Архітектура токен-капсул, інтеграція Telegram Mini Apps, математика бондинг-кривих та лістинг ліквідності на DeDust/STON.fi.
+              Token capsule modular architecture, Telegram Mini Apps, bonding curve mathematics, and automated liquidity migration to DeDust & STON.fi.
             </p>
           </div>
 
@@ -128,21 +128,21 @@ export default function DocsHomePage() {
               href="/launchpad/architecture"
               className="flex items-center justify-between text-xs text-teal-400 hover:text-teal-300 font-medium py-1"
             >
-              <span>Концепція Project Capsule</span>
+              <span>Project Capsule Concept</span>
               <ArrowRight className="h-3.5 w-3.5" />
             </Link>
             <Link
               href="/launchpad/bonding-curves"
               className="flex items-center justify-between text-xs text-gray-400 hover:text-gray-200 py-1"
             >
-              <span>Механіка бондинг-кривих</span>
+              <span>Bonding Curve Mechanics</span>
               <ArrowRight className="h-3.5 w-3.5" />
             </Link>
             <Link
               href="/launchpad/dex-migration"
               className="flex items-center justify-between text-xs text-gray-400 hover:text-gray-200 py-1"
             >
-              <span>Автоматична міграція на DEX</span>
+              <span>Automated DEX Graduation</span>
               <ArrowRight className="h-3.5 w-3.5" />
             </Link>
           </div>
@@ -156,14 +156,14 @@ export default function DocsHomePage() {
             </div>
             <div className="flex items-center justify-between">
               <h3 className="text-lg font-bold text-white group-hover:text-purple-300 transition-colors">
-                Розробникам & API
+                Developers & API
               </h3>
               <span className="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded bg-purple-500/20 text-purple-300">
                 Core API
               </span>
             </div>
             <p className="text-xs text-gray-400 leading-relaxed">
-              REST ендпоінти отримання свічок, аутентифікація ботів, специфікація контрактів TON Jetton TEP-74 та Identity Bridge.
+              REST endpoints for candles and telemetry, trading bot authentication, TON Jetton TEP-74 specifications, and Cross-App SSO Bridge.
             </p>
           </div>
 
@@ -179,7 +179,7 @@ export default function DocsHomePage() {
               href="/developers/smart-contracts"
               className="flex items-center justify-between text-xs text-gray-400 hover:text-gray-200 py-1"
             >
-              <span>Смарт-контракти Jetton</span>
+              <span>Jetton Smart Contracts</span>
               <ArrowRight className="h-3.5 w-3.5" />
             </Link>
             <Link
@@ -193,14 +193,14 @@ export default function DocsHomePage() {
         </div>
       </div>
 
-      {/* ── Changelog & Updates Feed (Журнал оновлень) ─────────── */}
+      {/* ── Changelog & Updates Feed ─────────────────────────── */}
       <div className="rounded-3xl border border-white/[0.08] bg-[#07090e] p-6 sm:p-8 space-y-6">
         <div className="flex items-center justify-between border-b border-white/[0.08] pb-4">
           <div className="flex items-center gap-2.5">
             <Calendar className="h-5 w-5 text-cyan-400" />
-            <h3 className="text-base sm:text-lg font-bold text-white">Журнал оновлень документації (Changelog)</h3>
+            <h3 className="text-base sm:text-lg font-bold text-white">Documentation Changelog</h3>
           </div>
-          <span className="text-xs text-gray-500">Останнє оновлення: 24.09.2026</span>
+          <span className="text-xs text-gray-500">Last updated: Sep 24, 2026</span>
         </div>
 
         <div className="space-y-4">
@@ -208,11 +208,11 @@ export default function DocsHomePage() {
             <span className="mt-1 h-2 w-2 rounded-full bg-cyan-400 shadow-[0_0_8px_rgba(0,242,254,0.8)] shrink-0" />
             <div className="space-y-1 text-xs sm:text-sm">
               <div className="flex items-center gap-2">
-                <strong className="text-white">v1.1.0 — Запуск модуля Capsule Observers</strong>
-                <span className="text-[10px] text-gray-500">24.09.2026</span>
+                <strong className="text-white">v1.1.0 — Capsule Observers Module Launch</strong>
+                <span className="text-[10px] text-gray-500">Sep 24, 2026</span>
               </div>
               <p className="text-gray-400">
-                Додано параметр <code className="text-cyan-300">--project &lt;slug&gt;</code> у воркер та 1-Click завантаження батників зі сторінки створення капсул.
+                Added <code className="text-cyan-300">--project &lt;slug&gt;</code> flag to the worker daemon and enabled 1-Click .bat downloads directly from capsule management pages.
               </p>
             </div>
           </div>
@@ -221,11 +221,11 @@ export default function DocsHomePage() {
             <span className="mt-1 h-2 w-2 rounded-full bg-emerald-400 shadow-[0_0_8px_rgba(16,185,129,0.8)] shrink-0" />
             <div className="space-y-1 text-xs sm:text-sm">
               <div className="flex items-center gap-2">
-                <strong className="text-white">v1.0.0 — Реліз Senzo Node Network (SNN)</strong>
-                <span className="text-[10px] text-gray-500">24.09.2026</span>
+                <strong className="text-white">v1.0.0 — Senzo Node Network (SNN) Release</strong>
+                <span className="text-[10px] text-gray-500">Sep 24, 2026</span>
               </div>
               <p className="text-gray-400">
-                Повний гайд запуску Worker-ноди, інструкція генерації 6-значного Claim коду та механізм виплат 80% пулу підписок.
+                Complete Worker Node quickstart, 6-digit Claim Code onboarding flow, and 80% subscription revenue distribution model.
               </p>
             </div>
           </div>

@@ -86,7 +86,7 @@ export const DocsSidebar: React.FC<DocsSidebarProps> = ({ onItemClick }) => {
       {/* External Fast Links Box */}
       <div className="pt-4 border-t border-white/[0.08] px-3 space-y-2">
         <div className="text-[11px] font-bold uppercase tracking-wider text-gray-500">
-          Швидкі ресурси
+          Quick Resources
         </div>
         <a
           href="https://senzolab.xyz/app/nodes"
@@ -94,7 +94,7 @@ export const DocsSidebar: React.FC<DocsSidebarProps> = ({ onItemClick }) => {
           rel="noopener noreferrer"
           className="flex items-center justify-between text-xs text-gray-400 hover:text-cyan-300 transition-colors py-1"
         >
-          <span>Кабінет оператора нод</span>
+          <span>Node Operator Hub</span>
           <ExternalLink className="h-3 w-3" />
         </a>
         <a
@@ -103,7 +103,7 @@ export const DocsSidebar: React.FC<DocsSidebarProps> = ({ onItemClick }) => {
           rel="noopener noreferrer"
           className="flex items-center justify-between text-xs text-gray-400 hover:text-cyan-300 transition-colors py-1"
         >
-          <span>Створити капсулу токена</span>
+          <span>Create Token Capsule</span>
           <ExternalLink className="h-3 w-3" />
         </a>
       </div>
