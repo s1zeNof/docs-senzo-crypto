@@ -9,7 +9,6 @@ import {
   ArrowRight,
   ShieldCheck,
   Radio,
-  BookOpen,
   Sparkles,
   ExternalLink,
   CheckCircle2,

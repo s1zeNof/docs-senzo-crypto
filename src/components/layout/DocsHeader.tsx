@@ -8,7 +8,6 @@ import {
   Radio,
   Menu,
   X,
-  BookOpen,
   Server,
   Rocket
 } from 'lucide-react';
@@ -40,10 +39,12 @@ export const DocsHeader: React.FC<DocsHeaderProps> = ({
             </button>
 
             <Link href="/" className="flex items-center gap-2.5 group">
-              <div className="h-8 w-8 rounded-xl bg-gradient-to-tr from-cyan-500 to-teal-400 p-[1px] shadow-[0_0_15px_rgba(0,242,254,0.3)]">
-                <div className="h-full w-full rounded-[11px] bg-[#05070b] flex items-center justify-center">
-                  <BookOpen className="h-4 w-4 text-cyan-400 group-hover:scale-110 transition-transform" />
-                </div>
+              <div className="h-9 w-9 rounded-xl bg-gradient-to-tr from-cyan-500/20 via-[#07090e] to-purple-500/20 border border-cyan-500/30 p-1 flex items-center justify-center shadow-[0_0_15px_rgba(0,242,254,0.25)] group-hover:border-cyan-400 group-hover:shadow-[0_0_20px_rgba(0,242,254,0.4)] transition-all">
+                <img
+                  src="/logo.svg"
+                  alt="Senzo Logo"
+                  className="h-6 w-6 object-contain group-hover:scale-110 transition-transform"
+                />
               </div>
               <div className="flex items-baseline gap-1.5">
                 <span className="font-extrabold tracking-tight text-white text-base">SENZO</span>
